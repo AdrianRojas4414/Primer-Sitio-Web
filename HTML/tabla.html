@@ -5,17 +5,242 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla</title>
 </head>
-<body>
+<body style="background-color:rgb(238, 213, 182);">
     <h1>Tabla</h1>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="genericos.html">Elementos Genéricos</a></li>
-            <li><a href="semanticos.html">Elementos Semánticos</a></li>
-            <li><a href="texto.html">Elementos de Texto</a></li>
-            <li><a href="tabla.html">Tabla</a></li>
-            <li><a href="imagenes.html">Imágenes</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="genericos.html">Elementos Genéricos</a></li>
+                <li><a href="semanticos.html">Elementos Semánticos</a></li>
+                <li><a href="texto.html">Elementos de Texto</a></li>
+                <li><a href="tabla.html">Tabla</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+            </ul>
+        </nav>
+    <table style="margin-left: auto; margin-right: auto;">
+        <caption style="padding: 15px; background-color: rgb(173, 173, 173);">Tabla de Personajes</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" style="padding: 15px; background-color: aqua;">Nro</th>
+                <th rowspan="2" style="padding: 15px; background-color:rgb(125, 183, 255);">Nombre</th>
+                <th rowspan="2" style="padding: 15px; background-color: rgb(246, 84, 255);">Apellido</th>
+                <th rowspan="2" style="padding: 15px; background-color: rgb(0, 167, 11);">Alias</th>
+                <th rowspan="2" style="padding: 15px; background-color: rgb(255, 192, 90);">Edad</th>
+                <th rowspan="2" style="padding: 15px; background-color: rgb(73, 255, 82);">Universo</th>
+                <th colspan="4" style="padding: 15px; background-color: rgb(255, 82, 82);">Características Físicas</th>
+                <th colspan="2" style="padding: 15px; background-color: rgb(93, 104, 255);">Poderes</th>
+                <th colspan="2" style="padding: 15px; background-color: rgb(255, 251, 0);">Conocidos Principales</th>
+            </tr>
+            <tr>
+                <th style="padding: 15px; background-color: rgb(228, 98, 98);">Color de Ojos</th>
+                <th style="padding: 15px; background-color: rgb(226, 109, 79);">Color de Cabello</th>
+                <th style="padding: 15px; background-color: rgb(224, 83, 22);">Altura</th>
+                <th style="padding: 15px; background-color: rgb(219, 118, 55);">Sexo</th>
+                <th style="padding: 15px; background-color: rgb(144, 89, 255);">Primario</th>
+                <th style="padding: 15px; background-color: rgb(79, 164, 255);">Secundario</th>
+                <th style="padding: 15px; background-color: rgb(255, 255, 121);">Aliado</th>
+                <th style="padding: 15px; background-color: rgb(255, 220, 43);">Villano</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Wanda</td>
+                <td>Maximoff</td>
+                <td>La Bruja Escarlata</td>
+                <td>29</td>
+                <td>Tierra-616</td>
+                <td>Verdes</td>
+                <td>Escarlata</td>
+                <td>1.6</td>
+                <td>Femenino</td>
+                <td>Crear Ilusiones</td>
+                <td>Lanzar energía</td>
+                <td>Hawkeye</td>
+                <td>Agatha</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pietro</td>
+                <td>Maximoff</td>
+                <td>Quicksilver</td>
+                <td>27</td>
+                <td>Tierra-616</td>
+                <td>Azules</td>
+                <td>Gris</td>
+                <td>1.8</td>
+                <td>Masculino</td>
+                <td>Correr muy rápido</td>
+                <td>Emitir hondas de luz</td>
+                <td>Hawkeye</td>
+                <td>Ultrón</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Steve</td>
+                <td>Rogers</td>
+                <td>Capitán América</td>
+                <td>102</td>
+                <td>Tierra-616</td>
+                <td>Azules</td>
+                <td>Rubio</td>
+                <td>1.9</td>
+                <td>Masculino</td>
+                <td>Fuerza de Súper Soldado</td>
+                <td>Desafiar las leyes de la física</td>
+                <td>Bucky Barnes</td>
+                <td>Red Skull</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>James</td>
+                <td>Howlet</td>
+                <td>Wolverine</td>
+                <td>200</td>
+                <td>Tierra-10005</td>
+                <td>Cafes</td>
+                <td>Cafes</td>
+                <td>1.5</td>
+                <td>Masculino</td>
+                <td>Garras retráctiles</td>
+                <td>Regeneración</td>
+                <td>Deadpool</td>
+                <td>Deadpool</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Tony</td>
+                <td>Stark</td>
+                <td>Iron Man</td>
+                <td>44</td>
+                <td>Tierra-616</td>
+                <td>Cafes</td>
+                <td>Castaño</td>
+                <td>1.8</td>
+                <td>Masculino</td>
+                <td>Volar en su armadura</td>
+                <td>Morir al final de una cuarta película</td>
+                <td>El Hombre Araña</td>
+                <td>Thanos?</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>El Hombre Araña</td>
+                <td>17</td>
+                <td>Tierra-616</td>
+                <td>Cafes</td>
+                <td>Castaño</td>
+                <td>1.7</td>
+                <td>Masculino</td>
+                <td>Lanzar Telarañas y pegarse en las paredes</td>
+                <td>Sentido Arácnido</td>
+                <td>Mysterio?</td>
+                <td>Mysterio?</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Kamala</td>
+                <td>Khan</td>
+                <td>Ms. Marvel</td>
+                <td>17</td>
+                <td>Tierra-616</td>
+                <td>Cafes</td>
+                <td>Negro</td>
+                <td>1.6</td>
+                <td>Femenino</td>
+                <td>Crear luz dura</td>
+                <td>Viajar en el Tiempo</td>
+                <td>Capitana Marvel</td>
+                <td>El final de The Marvels fue malo</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nick</td>
+                <td>Fury</td>
+                <td>Nick Furry</td>
+                <td>50?</td>
+                <td>Tierra-616</td>
+                <td>1</td>
+                <td>?</td>
+                <td>1.8</td>
+                <td>Masculino</td>
+                <td>Ser un bueno para nada y dejar que los Skrulls haga todo su trabajo</td>
+                <td>Fue al funeral de Stark</td>
+                <td>Steve Rogers</td>
+                <td>Gravik</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Carol</td>
+                <td>Danvers</td>
+                <td>Capitana Marvel</td>
+                <td>40</td>
+                <td>Tierra-616</td>
+                <td>Cafes</td>
+                <td>Rubio</td>
+                <td>1.7</td>
+                <td>Femenino</td>
+                <td>Lanzar rayos de fotones</td>
+                <td>Volar</td>
+                <td>Ms. Marvel</td>
+                <td>Su secuela</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Kahori</td>
+                <td>nose</td>
+                <td>Kahori?</td>
+                <td>25</td>
+                <td>Tierra-WhatIfS2E6</td>
+                <td>Cafes</td>
+                <td>Negro</td>
+                <td>1.6</td>
+                <td>Femenino</td>
+                <td>Abrir portales interdimensionales y aparentemente multiversales aunque no tiene sentido porque sus poderes vienen del Teseracto y el Teseracto solo abre portales dentro de su propio universo</td>
+                <td>Correr Rápido</td>
+                <td>Capitana Carter</td>
+                <td>España</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Miles</td>
+                <td>Morales</td>
+                <td>El Hombre Araña</td>
+                <td>15</td>
+                <td>Tierra-1610</td>
+                <td>Negros</td>
+                <td>Negro</td>
+                <td>1.8</td>
+                <td>Masculino</td>
+                <td>Lanzar telarañas y balancearse por la ciudad</td>
+                <td>Sentido Arácnido</td>
+                <td>Spider-Gwen</td>
+                <td>Spot</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Gwen</td>
+                <td>Stacy</td>
+                <td>Spider-Gwen</td>
+                <td>16</td>
+                <td>Tierra-65</td>
+                <td>Azules</td>
+                <td>Rubio</td>
+                <td>1.7</td>
+                <td>Femenino</td>
+                <td>Lanzar telarañas y balancearse por la ciudad/td>
+                <td>Sentido Arácnido</td>
+                <td>Miles Morales</td>
+                <td>Su papá jsaksjkajsaksjkajsjasjka</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="14">Todos estos personajes pertenecen a Marvel Studios. Todos los derechos reservados.</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
